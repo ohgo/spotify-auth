@@ -10,7 +10,7 @@ for instance in https://api.kurniawan.dev/profile.
 ## Running locally
 
 1. [Signup as Spotify developer](https://developer.spotify.com/dashboard/login)
-2. Edit settings to set redirect uri (e.g. http://localhost:3000)
+2. Edit settings to set redirect uri (e.g. http://127.0.0.1:3000/token)
 3. Create `.env` file
 ```shell script
 clientId=<SPOTIFY_CLIENT_ID>
@@ -22,4 +22,4 @@ Run
 npm i
 npm start
 ```
-To get your tokens, go to http://localhost:3000
+To get your tokens, go to the root http://127.0.0.1:3000

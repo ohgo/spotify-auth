@@ -4,7 +4,7 @@ const axios = require('axios');
 const querystring = require('querystring');
 
 router.get('/', async function (req, res, next) {
-    const {code, state} = req.query;
+    const { code, state } = req.query;
     if (state !== 'Texas') res.redirect('/');
     const clientId = process.env.clientId;
     const clientSecret = process.env.clientSecret;
